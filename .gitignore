@@ -1,0 +1,53 @@
+# Maven/Gradle
+target/
+build/
+
+# Logs
+*.log
+spring.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.swp
+*.tmp
+*.bak
+*.old
+
+# Configurações específicas de teste
+test-output/
+*.out
+
+# Arquivos de dependências
+*.jar
+*.war
+*.ear
+
+# Banco de dados H2 (arquivo de banco de dados embutido)
+*.h2.db
+*.mv.db
+
+# Arquivos de credenciais
+*.env
+.env.local
+.env.*.local
