@@ -14,7 +14,6 @@ public class ExemploExcecaoTests {
         exemplo = new ExemploExcecao();
         Boolean result = exemplo.isEven(3);
         Assert.assertTrue(result);
-
     }
 
 }
