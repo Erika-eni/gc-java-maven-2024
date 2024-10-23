@@ -25,9 +25,10 @@ public class Emprestimo {
     @Column(name = "dataDevolucao")
     private Date dataDevolucao;
 
-    @Column(name = "Autor")
+    @ManyToOne
+    @JoinColumn(name = "autorID", referencedColumnName = "autorID")
     private Autor autor;
-
-    @Column(name = "Livro")
+    @ManyToOne //relacao
+    @JoinColumn(name = "livroID", referencedColumnName = "livroID") //fk
     private Livro livro;
 }

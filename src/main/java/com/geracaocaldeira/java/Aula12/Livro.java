@@ -23,6 +23,7 @@ public class Livro {
     @Column(name = "anoPublicacao")
     private Integer anoPublicacao;
 
-    @Column(name = "Autor")
+    @ManyToOne
+    @JoinColumn(name = "autorID", referencedColumnName = "autorID")
     private Autor autor;
 }
