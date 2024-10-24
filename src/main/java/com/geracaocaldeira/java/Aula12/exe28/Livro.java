@@ -1,4 +1,4 @@
-package com.geracaocaldeira.java.Aula12;
+package com.geracaocaldeira.java.Aula12.exe28;
 
 
 import lombok.AllArgsConstructor;
@@ -23,7 +23,7 @@ public class Livro {
     @Column(name = "anoPublicacao")
     private Integer anoPublicacao;
 
-    @ManyToOne
+    @ManyToMany
     @JoinColumn(name = "autorID", referencedColumnName = "autorID")
     private Autor autor;
 }

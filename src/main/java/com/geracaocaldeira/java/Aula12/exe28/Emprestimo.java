@@ -1,4 +1,4 @@
-package com.geracaocaldeira.java.Aula12;
+package com.geracaocaldeira.java.Aula12.exe28;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -25,10 +25,7 @@ public class Emprestimo {
     @Column(name = "dataDevolucao")
     private Date dataDevolucao;
 
-    @ManyToOne
-    @JoinColumn(name = "autorID", referencedColumnName = "autorID")
-    private Autor autor;
-    @ManyToOne //relacao
+    @OneToMany //relacao
     @JoinColumn(name = "livroID", referencedColumnName = "livroID") //fk
     private Livro livro;
 }

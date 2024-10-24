@@ -1,4 +1,4 @@
-package com.geracaocaldeira.java.Aula12;
+package com.geracaocaldeira.java.Aula12.exe28;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

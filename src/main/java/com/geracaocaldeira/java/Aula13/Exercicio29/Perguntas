@@ -1,0 +1,12 @@
+* O que é uma APl e qual sua relação com Web Service?
+    APIs são mecanismos que permitem que dois componentes de software se comuniquem
+    usando um conjunto de definições e protocolos. API de serviço da Web é uma
+    interface de processamento de aplicações entre um servidor da Web e um navegador da Web.
+
+* O que é HTTP e quais são os principais métodos HTTP usados em APls?
+
+
+* Quais são as principais diferenças entre uma API REST e um Webservice SOAP?
+
+
+* Qual é o papel das camadas Model, Service e Controller em uma API Spring Boot?
