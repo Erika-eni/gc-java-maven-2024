@@ -1,12 +1,23 @@
 * O que é uma APl e qual sua relação com Web Service?
     APIs são mecanismos que permitem que dois componentes de software se comuniquem
     usando um conjunto de definições e protocolos. API de serviço da Web é uma
-    interface de processamento de aplicações entre um servidor da Web e um navegador da Web.
+    interface de processamento de aplicações, é serviço que permite a comunicação
+    e a troca de dados entre sistemas diferentes por meio da internet.
 
 * O que é HTTP e quais são os principais métodos HTTP usados em APls?
+    é um protocolo para hospedagem de web de sites, sistemas web, servidores rede interna (LAN - Intranet)
+    e na internet (WAN - Internet). (HTTP + SSL = HTTPS). Como principais métodos temos o GET, POST, PUT, PATCH e DELETE.
 
 
 * Quais são as principais diferenças entre uma API REST e um Webservice SOAP?
-
+    A principal diferença é que SOAP é um protocolo e REST, não. O REST geralmente utiliza o formato JSON para a
+    troca de dados e são leves e ideais para contextos mais modernos, já o SOAP utiliza o XML e é mais complexo, vantajoso
+    em sistemas críticos.
 
 * Qual é o papel das camadas Model, Service e Controller em uma API Spring Boot?
+    Model: Representa a estrutura dos dados, como classes que mapeiam tabelas do banco de dados. Aqui são definidas as entidades
+    e como os dados são armazenados.
+    Service: Contém a lógica de negócios da aplicação, como as operações e regras de manipulação dos dados. Esta camada faz
+    a conexão entre o Controller e o Model, garantindo que os dados recebidos e enviados estejam corretos.
+    Controller: Exponibiliza os endpoints da API, recebendo as requisições do usuário, encaminhando para a camada de serviço e
+    retornando as respostas.
