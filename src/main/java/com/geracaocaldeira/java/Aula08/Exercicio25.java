@@ -15,7 +15,7 @@ public class Exercicio25 {
             return num1 / num2;
         }
         else {
-            return null;
+            throw new CaldeiraException("Não pode por zero");
         }
     }
 }

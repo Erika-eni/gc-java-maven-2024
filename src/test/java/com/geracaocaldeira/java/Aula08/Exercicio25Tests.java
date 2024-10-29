@@ -36,7 +36,7 @@ public class Exercicio25Tests {
     }
     @Test
     public void divideNull(){
-        Double resultE = null;
+        CaldeiraException resultE = new CaldeiraException("Não pode por zero");
         Double result = exe25.divide(num1,0.0);
         Assert.assertEquals(resultE, result);
     }
