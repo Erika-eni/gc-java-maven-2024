@@ -1,4 +1,4 @@
-package com.geracaocaldeira.java.Aula13.Exercicio29.Miniboss.Model;
+package com.geracaocaldeira.java.Aula13.Exercicio29.MinibossExemplo.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

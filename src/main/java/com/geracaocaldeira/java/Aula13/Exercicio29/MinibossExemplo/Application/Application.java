@@ -1,4 +1,4 @@
-package com.geracaocaldeira.java.Aula13.Exercicio29.Miniboss.Application;
+package com.geracaocaldeira.java.Aula13.Exercicio29.MinibossExemplo.Application;
 
 
 import org.springframework.boot.SpringApplication;

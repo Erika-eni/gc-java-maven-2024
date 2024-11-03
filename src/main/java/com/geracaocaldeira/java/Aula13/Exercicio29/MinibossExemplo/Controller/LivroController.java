@@ -1,7 +1,7 @@
-package com.geracaocaldeira.java.Aula13.Exercicio29.Miniboss.Controller;
+package com.geracaocaldeira.java.Aula13.Exercicio29.MinibossExemplo.Controller;
 
-import com.geracaocaldeira.java.Aula13.Exercicio29.Miniboss.Model.Livro;
-import com.geracaocaldeira.java.Aula13.Exercicio29.Miniboss.Service.LivroService;
+import com.geracaocaldeira.java.Aula13.Exercicio29.MinibossExemplo.Model.Livro;
+import com.geracaocaldeira.java.Aula13.Exercicio29.MinibossExemplo.Service.LivroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
